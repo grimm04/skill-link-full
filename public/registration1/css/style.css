@@ -1,0 +1,549 @@
+/* registration start */
+body{
+	height: 100Vh;
+	background-size: cover;
+	width: 100%;
+}
+
+.registration_multi{
+	width: 100%;
+	background-image: url('../img/registration_2.png');
+	padding: 25px 0px;
+}
+
+#registration{
+	background-size: cover;
+	width: 100%;
+	overflow-y: scroll;
+	height: 100Vh;
+	font-weight: 100;
+}
+
+.width-80{
+	width: 80%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.width-60{
+	width: 60%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.width-40{
+	width: 40%;
+	margin: 0 auto;
+	position: relative;
+}
+
+#registration p{
+	color: #fff;
+}
+
+#registration .left{
+	float: left;
+}
+
+#registration .right{
+	float: right;
+}
+
+#registration h2{
+	text-align: left;
+	color: #F9C90A;
+	font-weight: 100;
+	font-size: 30px;
+}
+
+#registration h4{
+	text-align: center;
+	color: #fff;
+}
+
+#registration h5{
+	color: #fff;
+	text-align: center;
+	font-weight: 100;
+}
+
+#registration img{
+	height: 30px;
+}
+
+#registration input, #registration select{
+	width: 100%;
+	border-radius: 100px;
+	border: none;
+	outline: none;
+	margin-bottom: 10px;
+	padding:10px 15px;
+}
+
+.blur{
+	background-color: rgba(0,0,0,.4);
+	height: 97Vh;
+}
+
+.blur-grey{
+	background-color: rgba(136,136,136,.8);
+	padding: 70px 0px !important;
+}
+
+.clear{
+	clear: both;
+}
+
+.border-top{
+	border-top: 10px #F9C90A solid;
+}
+
+.border-bottom{
+	border-bottom: 10px #F9C90A solid;
+}
+
+.btn{
+	border: 100%;
+	padding:5px 16px;
+	color: #fff;
+	border-radius: 20px;
+	background-color:transparent !important;
+	transition: all .3s ease;
+}
+
+.btn-border{
+	border: 2px #F9C90A solid;
+}
+
+.btn-border:hover{
+	background-color: #F9C90A !important;
+	color: #333;
+	transition: all .3s ease;
+}
+
+.size-md{
+	font-size: 16px !important;
+	padding: 8px 30px;
+}
+
+.btn-yellow{
+	background-color: #F9C90A !important;
+	font-weight: 700;
+	color: #2D2D2D !important;
+}
+
+.btn-yellow:hover{
+	background-color: #E3B709 !important;
+}
+
+.border-radius-non{
+	border-radius: 0px !important;
+}
+
+.btn-black{
+	background-color: #2D2D2D !important;
+	color: #fff;
+}
+
+.btn-black:hover{
+	background-color: #171717 !important;
+}
+
+#placeholder-yellow ::-webkit-input-placeholder { /* Chrome */
+  color: #F9C90A !important;
+  font-size: 14px;
+}
+
+#placeholder-yellow ::-ms-input-placeholder { /* IE 10+ */
+  color: #F9C90A !important;
+  font-size: 14px;
+}
+
+#placeholder-yellow :::-moz-placeholder { /* Firefox 19+ */
+  color: #F9C90A !important;
+  font-size: 14px;
+  opacity: 1;
+}
+
+#placeholder-yellow ::-moz-placeholder { /* Firefox 4 - 18 */
+  color: #F9C90A !important;
+  font-size: 14px;
+  opacity: 1;
+}
+
+#placeholder-white ::-webkit-input-placeholder { /* Chrome */
+  color: #fff !important;
+  font-size: 14px;
+}
+
+#placeholder-white ::-ms-input-placeholder { /* IE 10+ */
+  color: #fff !important;
+  font-size: 14px;
+}
+
+#placeholder-white :::-moz-placeholder { /* Firefox 19+ */
+  color: #fff !important;
+  font-size: 14px;
+  opacity: 1;
+}
+
+#placeholder-white ::-moz-placeholder { /* Firefox 4 - 18 */
+  color: #fff !important;
+  font-size: 14px;
+  opacity: 1;
+}
+
+#placeholder-white ::-webkit-input-placeholder { /* Chrome */
+  color: #fff !important;
+  font-size: 14px;
+}
+/* sign up */
+
+.sign-up{
+	float: left;
+	width: 70%;
+}
+
+.sign-up h3{
+	font-weight: 700;
+	font-size: 40px;
+	color: #fff;
+	margin: 10px 0px;
+	line-height: 60px;
+}
+
+.sign-up-content{
+	width: 70%; 
+	position: relative;
+	margin: 0 auto;
+	padding-top: 60px;
+}
+
+.sign-up-content form{
+	width: 80%;
+}
+
+#registration input{
+	background-color: #2D2D2D;
+	color: #F9C90A;
+}
+
+/* sign in */
+
+.sign-in{
+	width: 30%;
+	float: right;
+}
+
+.sign-in .blur{
+	height: 100Vh;
+	background-color: rgba(0,0,0,.7);
+}
+
+.sign-in-content{
+	padding-top: 100px;
+	width: 65%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.sign-in-content a{
+	color: #fff;
+}
+
+.sign-in-content input{
+	background-color: rgba(255,255,255,.6) !important;
+	text-align: right;
+	color: #fff;
+}
+
+/* registration 02 */
+
+.registration_02 form{
+	width: 80% !important;
+	margin: 0 auto;
+	padding: 2px 0px !important;
+}
+
+.registration_02 input{
+	border-radius: 0px !important;
+}
+
+.password{
+	position: relative;
+}
+
+.show-password {
+	color: #333;
+	display: inline-block;
+	position: absolute;
+	top: -50%;
+	transform: translateY(150%);
+	right: 25px;
+}
+
+.show-password:hover{
+	text-decoration: none;
+}
+
+/* registration 03 */
+
+.registration_03{
+	padding: 40px 0px;
+}
+
+.registration_03 .blur-grey{
+	padding: 25px 0px !important;
+}
+
+.registration_03 h2{
+	text-align: center !important;
+}
+
+.registration_03 input, .registration_03 select{
+	border-bottom: 2px #fff solid !important;
+	background-color: transparent !important;
+	border-radius: 0px !important;
+	color: #fff !important;
+	padding: 7px 0px !important;
+}
+
+.registration_03 option{
+	color: #333;
+}
+
+.registration_03 ::-webkit-input-placeholder { /* Chrome */
+  color: #fff !important;
+  font-size: 14px;
+}
+
+.registration_03 .btn{
+	width: 50%;
+	margin: 0 auto;
+}
+
+/* add photo */
+
+.add-photo{
+	text-align: center;
+	background-color: #fff;
+	border-radius: 20px;
+	padding: 20px 30px;
+}
+
+.input-photo{
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+}
+
+.input-photo img{
+	width: 120px;
+	margin-top: -90px;
+	object-fit: cover;
+	overflow: hidden;
+	border-radius: 50%;
+	border: 4px solid #fff;
+	height: 120px !important;
+}
+
+.input-photo input{
+	position: absolute;
+	top: 0;
+	height: 120px;
+	margin-top: -90px;
+	width: 120px;
+	left: 0;
+	opacity: 0;
+	cursor: pointer;
+}
+
+/* connect people */
+
+.connect-people{
+	border-top: 3px #fff solid;
+	padding:15px 30px;
+	text-align: left !important;
+}
+
+.connect-people h5{
+	margin: 0 auto;
+	color: #F9C90A !important;
+	font-weight: 400 !important;
+	text-align: left !important;
+}
+
+.connect-people p{
+	margin-top: 5px;
+	text-align: left;
+	font-size: 12px;
+}
+
+.connect-people img{
+	width: 75px;
+	height: 75px !important;
+	margin-top: 0px !important;
+}
+
+.connect-people a{
+	width: 100% !important;
+	border-radius: 5px !important;
+}
+
+/* chooise main */
+
+.chooise-main{
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	color: #F9C90A;
+}
+
+.chooise-main a{
+	width: 100% !important;
+	border-radius: 0px;
+	margin-bottom: 13px !important;
+	font-size: 19px;
+}
+
+.chooise-main p{
+	color: #F9C90A !important;
+	margin-top: 7px;
+	text-align: left !important;
+}
+
+.chooise-main span{
+	position: relative;
+}
+
+.chooise-main span:before{
+	width: 50px;
+	height: 5px;
+	background-color: #F9C90A;
+	position: absolute;
+	content: " ";
+	left: 0;
+	right: 0;
+	bottom: -50px;
+	margin: 0 auto;
+
+}
+
+.chooise-main img{
+	height: 25px !important;
+	margin-top: 7px;
+}
+
+
+
+@media screen and (max-width: 1024px){
+
+	.sign-in, .sign-up{
+		width: 100%;
+		float: none;
+		height: 100Vh;
+	}
+
+	.blur{
+		height: auto !important;
+	}
+
+	.sign-up{
+		background: url('../img/registration_3.png') !important;
+		background-color: none;
+		height: auto !important;
+	}
+
+	.sign-up-content{
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	.sign-up-content form{
+		width: 100%;
+	}	
+
+	.sign-in{
+		background: url('../img/registration_3.png') !important;
+		background-color: none !important;	
+		height: auto !important;
+		margin-top: -10px;
+	}
+
+	.sign-in .blur{
+		height: auto !important;
+		padding-bottom: 20px;
+	}
+
+	#border-top-bottom{
+		border: 0px;
+	}
+
+	.connect-people{
+		padding: 15px 0px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.width-80{
+		width: 100%;
+	}
+
+	.width-60{
+		width: 100%;
+	}
+
+	.width-40{
+		width: 100%;
+	}
+
+	.registration_02{
+		padding: 30px 50px;
+	}
+
+	.registration_03 form{
+		width: 95%;
+		margin: 0 auto;
+	}
+
+	.chooise-main{
+		width: 90%;
+	}
+
+	.chooise-main a{
+		font-size: 15px;
+	}
+
+	.sign-in-content input{
+		background-color: #333 !important;
+		opacity: 1;
+	}
+}
+
+@media screen and (max-width: 480px){
+	#registration{
+		height: auto !important;
+		overflow: none !important;
+	}
+	.sign-up #typed{
+		font-size: 30px;
+	}
+	#registration h2{
+		font-size: 24px;
+	}
+	.sign-up-content, .sign-in-content{
+		width: 90%;
+	}
+
+	.registration_02{
+		padding: 30px 10px;
+	}
+
+	.registration_03 .btn{
+		width: 70%;
+	}
+
+	.connect-people h5, .connect-people p{
+		text-align: center !important;
+	}
+}

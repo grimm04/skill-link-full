@@ -1,0 +1,131 @@
+.user-panel>.image>img {
+    max-width: 35px !important;
+}
+
+.content-wrapper, .right-side {
+    background-color: #fff;
+}
+
+.skin-blue .main-header .navbar {
+    background-color: #1d4b7f;
+}
+
+.link-navbar:hover {
+    background-color: #1d447f !important;
+}
+.skin-blue .main-header .logo {
+    background-color: #233D5A;
+    color: #FFCC10;
+    border-bottom: 0 solid transparent;
+}
+
+.skin-blue .main-header .logo:hover {
+    background-color: #22355a;
+    color: #FFCC10;
+    border-bottom: 0 solid transparent;
+}
+
+.skin-blue .main-header .navbar .sidebar-toggle {
+    color: #FFCC10;
+}
+
+.skin-blue .main-header .navbar .sidebar-toggle:hover {
+    background-color: #1d447f;
+    color: #FFCC10;
+}
+
+.skin-blue .sidebar-form input[type="text"] {
+    color: #333;
+    background-color: #D4D5D9;
+}
+
+.skin-blue .sidebar-form .btn {
+    color: #555;
+    background-color: #D4D5D9;
+}
+
+.user-panel>.info>p, .user-panel>.info>a {
+    color: #FBB03B;
+}
+
+.skin-blue .user-panel>.info>a {
+    color: #ffdd00 !important;
+}
+
+.skin-blue .sidebar-menu>li:hover>a, .skin-blue .sidebar-menu>li.active>a {
+    border-left: 6px solid #FFCC10;
+}
+
+.main-footer {
+    background: #212529;
+    padding: 15px;
+    color: #FFCC10;
+    border-top: 1px solid #212529;
+}
+
+.navbar-nav > .user-menu > .dropdown-menu > li.user-header > img {
+    z-index: 5;
+    height: 90px;
+    width: 70px;
+    border:none;
+}
+
+.skin-blue .main-header li.user-header {
+    background-color: #233D5A;
+}
+
+.navbar-nav>.user-menu>.dropdown-menu>li.user-header>p {
+    color: #FFCC10;
+}
+
+.skin-blue .main-header .navbar .nav>li>a {
+    color: #FFCC10;
+}
+
+
+.header-mail{
+    background-color: #1d4b7f;
+    color:#FFCC10;
+}
+
+.table-mail{
+    border: 2px solid #eee;
+}
+
+.form-mail{
+    border: none;
+    border-color: transparent;
+    width: 100%;
+}
+
+.form-mail:focus{
+    outline: none;
+    text-decoration: none;
+    font-weight: 300;
+    border-bottom: 1.2px solid #ffcb05;
+   -webkit-transition:border-bottom .5s;
+    -moz-transition:border-bottom .5s;
+    -ms-transition:border-bottom .5s;
+     -o-transition:border-bottom .5s;
+        transition:border-bottom .5s;
+}
+
+.form-control{
+    border-radius: 7px !important;
+}
+
+.image_surveys_admin{
+    width: 200px;
+}
+
+.title-user{
+    color: #FFCC10;
+}
+
+.btn-register {
+    background-color: #FFCC10;
+    color: black;
+    padding: 5px 20px 5px 20px;
+    border-radius: 10px;
+    font-weight: 700;
+}
